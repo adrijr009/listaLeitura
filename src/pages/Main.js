@@ -34,7 +34,7 @@ const Main = () => {
       <View style={styles.toolbox}>
         <Text style={styles.title}>Lista de Leitura</Text>
         <TouchableOpacity style={styles.toolboxButton}>
-          <Icon name="add" size={18} color="#ffffff"/>
+          <Icon name="add" size={25} color="#ffffff"/>
         </TouchableOpacity>
       </View>
       <FlatList data={data}
@@ -52,14 +52,15 @@ const Main = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 5,
+    padding: 10,
+    marginTop: 40,
   },
   toolbox: {
     flexDirection: "row",
     marginBottom: 10
   },
   title: {
-    fontSize: 16,
+    fontSize: 22,
     flex: 1,
     color: "#3498db"
   },
@@ -68,8 +69,8 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     justifyContent: "center",
     alignItems: "center",
-    width: 22,
-    height: 22
+    width: 35,
+    height: 35
   },
   itemButton: {
 
